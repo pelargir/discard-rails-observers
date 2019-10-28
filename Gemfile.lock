@@ -1,0 +1,46 @@
+PATH
+  remote: .
+  specs:
+    discard-rails-observers (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (6.0.0)
+      activesupport (= 6.0.0)
+    activerecord (6.0.0)
+      activemodel (= 6.0.0)
+      activesupport (= 6.0.0)
+    activesupport (6.0.0)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+      zeitwerk (~> 2.1, >= 2.1.8)
+    concurrent-ruby (1.1.5)
+    discard (1.1.0)
+      activerecord (>= 4.2, < 7)
+    i18n (1.7.0)
+      concurrent-ruby (~> 1.0)
+    minitest (5.12.2)
+    rails-observers (0.1.5)
+      activemodel (>= 4.0)
+    rake (10.5.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+    zeitwerk (2.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.17)
+  discard (~> 1.1)
+  discard-rails-observers!
+  minitest (~> 5.0)
+  rails-observers (~> 0.1)
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.17.3
