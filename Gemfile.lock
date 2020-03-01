@@ -25,7 +25,7 @@ GEM
     minitest (5.12.2)
     rails-observers (0.1.5)
       activemodel (>= 4.0)
-    rake (10.5.0)
+    rake (13.0.1)
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
@@ -40,7 +40,7 @@ DEPENDENCIES
   discard-rails-observers!
   minitest (~> 5.0)
   rails-observers (~> 0.1)
-  rake (~> 10.0)
+  rake (~> 13.0)
 
 BUNDLED WITH
    1.17.3
