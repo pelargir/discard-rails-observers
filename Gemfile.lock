@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    discard-rails-observers (0.1.0)
+    discard-rails-observers (0.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -34,7 +34,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.17)
+  bundler (~> 2.1)
   discard (~> 1.1)
   discard-rails-observers!
   minitest (~> 5.0)
@@ -42,4 +42,4 @@ DEPENDENCIES
   rake (~> 13.0)
 
 BUNDLED WITH
-   1.17.3
+   2.2.8
