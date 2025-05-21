@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "minitest", "~> 5.0"
   spec.add_development_dependency "discard", "~> 1.1"
   spec.add_development_dependency "rails-observers", "~> 0.1"
-  spec.add_development_dependency "activesupport", "~> 7.2"
+  spec.add_development_dependency "activesupport", "~> 8.0"
 end
